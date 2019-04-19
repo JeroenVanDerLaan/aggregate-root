@@ -1,0 +1,63 @@
+{
+    "name": "jeroenvanderlaan/aggregate-root",
+    "description": "An event sourced aggregate root implementation",
+    "type": "library",
+    "keywords": ["domain driven design", "ddd", "aggregate", "aggregate root", "event sourcing", "domain event"],
+    "homepage": "https://github.com/JeroenVanDerLaan/aggregate-root",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+
+    "authors": [
+        {
+            "name": "Jeroen van der Laan",
+            "email": "jeroenvanderlaan91@gmail.com",
+            "homepage": "https://github.com/JeroenVanDerLaan",
+            "role": "Developer"
+        }
+    ],
+
+    "require": {
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+
+    "suggest": {
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Jeroenvanderlaan\\AggregateRoot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jeroenvanderlaan\\AggregateRoot\\Tests\\": "tests/",
+            "Jeroenvanderlaan\\AggregateRoot\\Tests\\Unit\\": "tests/unit"
+        }
+    },
+
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/JeroenVanDerLaan/aggregate-root"
+        }
+    ],
+
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    },
+
+    "scripts": {
+    },
+
+    "extra": {
+    },
+
+    "bin": [
+    ]
+}
